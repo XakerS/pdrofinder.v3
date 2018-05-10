@@ -2,7 +2,7 @@ import vk
 import random
 import time
 
-session=vk.Session(access_token="98de103612c0555f2e897712f495fa1298a22abc6a49b2d03b7bb6d0797b7ebb2561b502c4e0629646b8e")
+session=vk.Session(access_token="ТОКЕН, создайте приложение и вставте его сюда")
 vk_api = vk.API(session, v='5.62')
 ass=vk_api.messages.getDialogs(count=10)
 for msg in ass['items']:
